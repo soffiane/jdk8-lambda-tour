@@ -16,7 +16,9 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
 
-package org.paumard.jdk8;
+package paumard.jdk8;
+
+import paumard.model.McDonald;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -25,7 +27,6 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.paumard.model.McDonald;
 
 /**
  *

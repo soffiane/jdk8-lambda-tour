@@ -16,7 +16,10 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
 
-package org.paumard.jdk8;
+package paumard.jdk8;
+
+import paumard.model.Actor;
+import paumard.model.Movie;
 
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -29,8 +32,6 @@ import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import org.paumard.model.Actor;
-import org.paumard.model.Movie;
 
 /**
  *
